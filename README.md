@@ -41,7 +41,7 @@ sudo mv kubectl /usr/local/bin/
 ```
 kubectl version -o yaml
 ```
-# Output
+#### Output
 ```
 clientVersion:
  buildDate: "2023–11–15T16:58:22Z"
@@ -73,7 +73,7 @@ minikube start — driver=docker
 ```
 minikube status
 ```
-# Output
+#### Output
 ```
 minikube
 type: Control Plane
@@ -87,7 +87,7 @@ kubeconfig: Configured
 ```
 kubectl cluster-info
 ```
-# Output
+#### Output
 ```
 Kubernetes control plane is running at https://192.168.49.2:8443
 CoreDNS is running at https://192.168.49.2:8443/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
